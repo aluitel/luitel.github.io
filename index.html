@@ -57,20 +57,20 @@
       margin-bottom: 1rem;
       font-size: 1.25rem;
     }
-    .education-entry {
+    .entry {
       display: flex;
       align-items: center;
       margin-bottom: 2rem;
       flex-direction: row;
     }
-    .education-entry img {
+    .entry img {
       width: 220px;
       height: auto;
       border-radius: 8px;
       margin-right: 2rem;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    .education-text {
+    .entry-text {
       flex: 1;
     }
     footer {
@@ -106,7 +106,7 @@
 
     <div class="section" id="experience">
       <h2>Professional Experience</h2>
-      <p>At Microsoft, I led the product strategy for <strong>Security Copilot</strong>, the company’s first generative AI-powered security platform. My work spanned <strong>Responsible AI, privacy, sovereign cloud readiness, and compliance</strong>—enabling governments and regulated industries to adopt AI securely and defend public interest at machine speed. I also served as TPM lead for the <strong>Secure Future Initiative</strong>, driving secure-by-design adoption across 10+ cloud products. In this high-impact, cross-org role, I helped elevate engineering maturity, scale secure development practices, and align execution with Microsoft’s software assurance and AI-readiness objectives. Prior to this, I led the <strong>sovereign cloud strategy</strong> for Microsoft’s threat intelligence portfolio.</p>
+      <p>At Microsoft, I led the product strategy for <strong>Security Copilot</strong>, the company’s first generative AI-powered security platform. My work spanned <strong>Responsible AI, privacy, sovereign cloud readiness, and compliance</strong>—enabling governments and regulated industries to adopt AI securely and defend public interest at machine speed. I also served as TPM lead for the <strong>Secure Future Initiative</strong>, driving secure-by-design adoption across 10+ cloud products. In this h...
     </div>
 
     <div class="section" id="teaching">
@@ -116,23 +116,28 @@
 
     <div class="section" id="military">
       <h2>Military Experience</h2>
-      <p>I began my career in the <strong>U.S. Navy</strong>, supporting strategic operations across the Asia-Pacific region. This experience grounded me in <strong>discipline, global foresight, and mission-first execution</strong>—principles that continue to guide my leadership in both the public and private sectors.</p>
+      <div class="entry">
+        <img src="navy.jpg" alt="U.S. Navy Uniform Photo" />
+        <div class="entry-text">
+          <p>I began my career in the <strong>U.S. Navy</strong>, supporting strategic operations across the Asia-Pacific region. This experience grounded me in <strong>discipline, global foresight, and mission-first execution</strong>—principles that continue to guide my leadership in both the public and private sectors.</p>
+        </div>
+      </div>
     </div>
 
     <div class="section" id="education">
       <h2>Education</h2>
 
-      <div class="education-entry">
+      <div class="entry">
         <img src="harvard.jpg" alt="Harvard Graduation Photo" />
-        <div class="education-text">
+        <div class="entry-text">
           <strong>Master in Public Administration, AI Policy</strong><br/>
           Harvard Kennedy School
         </div>
       </div>
 
-      <div class="education-entry">
+      <div class="entry">
         <img src="gwu.jpg" alt="GWU Graduation Photo" />
-        <div class="education-text">
+        <div class="entry-text">
           <strong>Doctor of Engineering & Master of Engineering, Cybersecurity</strong><br/>
           The George Washington University
         </div>
