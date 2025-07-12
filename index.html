@@ -4,154 +4,137 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dr. Aashis Luitel</title>
+  <title>Aashis Luitel | Personal Website</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
-      background: #f4f4f4;
+      background-color: #f9f9f9;
       color: #333;
     }
     header {
-      background: #fff;
-      padding: 40px 20px;
       text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 40px 20px;
+      background-color: #ffffff;
     }
     header img {
-      width: 120px;
-      height: 120px;
       border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 20px;
+      width: 130px;
+      height: 130px;
+    }
+    header h1 {
+      margin-top: 10px;
+      font-size: 24px;
     }
     nav {
-      text-align: center;
-      background: #333;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background-color: #444;
+      padding: 10px;
     }
     nav a {
-      display: inline-block;
-      padding: 15px 20px;
       color: white;
       text-decoration: none;
-    }
-    nav a:hover {
-      background: #555;
+      font-weight: bold;
     }
     section {
       padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
-      background: #fff;
-      margin-top: 20px;
-      border-radius: 8px;
     }
-    .section-img-left {
+    .section-title {
+      font-size: 22px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+    .content-block {
       display: flex;
-      align-items: center;
       gap: 20px;
+      align-items: center;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
     }
-    .section-img-left img {
-      max-width: 300px;
-      border-radius: 10px;
-    }
-    .edu-grid {
-      display: flex;
-      gap: 40px;
-      margin-top: 20px;
-    }
-    .edu-grid div {
-      flex: 1;
-      text-align: center;
-    }
-    .edu-grid img {
-      max-width: 100%;
+    .content-block img {
+      max-width: 250px;
       border-radius: 8px;
-      margin-bottom: 10px;
     }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #333;
-      color: #fff;
-      margin-top: 40px;
+    .content-text {
+      flex: 1;
+    }
+    .education-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .edu-column {
+      width: 48%;
+    }
+    .edu-column img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="Profile.jpeg" alt="Dr. Aashis Luitel" />
-    <p><strong>Mission-driven product leader and Doctor of Engineering, shaping the future of secure AI at the intersection of innovation, policy, and public trust.</strong></p>
-  </header>
 
-  <nav>
-    <a href="#microsoft">Microsoft</a>
-    <a href="#teaching">Teaching & Leadership</a>
-    <a href="#military">Military Experience</a>
-    <a href="#education">Education</a>
-  </nav>
+<header>
+  <img src="profile.jpg" alt="Profile Image">
+  <h1>Mission-driven product leader and Doctor of Engineering, shaping the future of secure AI at the intersection of innovation, policy, and public trust.</h1>
+</header>
 
-  <section id="microsoft">
-    <div class="section-img-left">
-      <img src="Microosft.jpg" alt="Microsoft Experience" />
-      <div>
-        <h2>Microsoft</h2>
-        <p>
-          At Microsoft, I led product strategy for Security Copilot, the first generative AI-powered security platform.
-          My work focused on responsible AI, privacy, sovereign cloud enablement, and compliance—empowering government
-          and regulated sectors to adopt the product and safeguard the public interest at machine speed.
-        </p>
-        <p>
-          I also led TPM strategy for the Secure Future Initiative within the Cloud Ecosystem Security organization,
-          spanning 10+ products. This high-visibility, cross-org role focused on scaling secure-by-design practices,
-          improving engineering maturity, and aligning security execution with Microsoft’s broader software assurance
-          and AI-readiness goals. Previously, I led the sovereign cloud readiness strategy for the Threat Intelligence portfolio.
-        </p>
-      </div>
+<nav>
+  <a href="#microsoft">Microsoft</a>
+  <a href="#teaching">Teaching and Leadership</a>
+  <a href="#military">Military Experience</a>
+  <a href="#education">Education</a>
+</nav>
+
+<section id="microsoft">
+  <div class="section-title">Microsoft</div>
+  <div class="content-block">
+    <img src="microsoft.jpg" alt="Microsoft Photo">
+    <div class="content-text">
+      <p>At Microsoft, I led product strategy for Security Copilot, the first generative AI-powered security platform. My work focused on responsible AI, privacy, sovereign cloud enablement, and compliance—empowering government and regulated sectors to adopt the product and safeguard the public interest at machine speed.</p>
+      <p>I also led TPM strategy for the Secure Future Initiative within the Cloud Ecosystem Security organization, spanning 10+ products. This high-visibility, cross-org role focused on scaling secure-by-design practices, improving engineering maturity, and aligning security execution with Microsoft’s broader software assurance and AI-readiness goals.</p>
+      <p>Previously, I led the sovereign cloud readiness strategy for the Threat Intelligence portfolio.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="teaching">
-    <h2>Teaching & Leadership</h2>
-    <p>
-      I teach graduate-level courses in cybersecurity, AI governance, and cloud compliance to Masters and PhD students
-      at various U.S. universities, including the University of the Cumberlands, Purdue, and the University of Arizona Global.
-      My focus is on blending real-world product leadership with academic insights to prepare the next generation of ethical tech leaders.
-    </p>
-  </section>
+<section id="teaching">
+  <div class="section-title">Teaching and Leadership</div>
+  <p>I teach graduate-level courses in cybersecurity, AI governance, and cloud compliance to Master’s and PhD students at various U.S. universities, including University of the Cumberlands, Purdue, and University of Arizona Global. My focus is on blending real-world product leadership with academic insights to prepare the next generation of ethical tech leaders.</p>
+</section>
 
-  <section id="military">
-    <div class="section-img-left">
-      <img src="AL_NAVY 1.jpeg" alt="Navy Experience" />
-      <div>
-        <h2>Military Experience</h2>
-        <p>
-          I began my career serving in the U.S. Navy, supporting strategic operations across the Asia-Pacific.
-          That experience instilled a mindset of discipline, service, and global readiness that shapes everything I do today.
-        </p>
-      </div>
+<section id="military">
+  <div class="section-title">Military Experience</div>
+  <div class="content-block">
+    <img src="navy.jpg" alt="Navy Uniform">
+    <div class="content-text">
+      <p>I began my career serving in the U.S. Navy, supporting strategic operations across the Asia-Pacific. That experience instilled a mindset of discipline, service, and global readiness that shapes everything I do today.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="education">
-    <h2>Education</h2>
-    <div class="edu-grid">
-      <div>
-        <img src="harvard_mpa.png" alt="Harvard MPA" />
-        <p><strong>Master in Public Administration, AI Policy</strong><br/>Harvard Kennedy School</p>
-      </div>
-      <div>
-        <img src="gwu_doctor.jpg" alt="GWU Doctorate" />
-        <p><strong>Doctor of Engineering, Engineering Management</strong><br/>The George Washington University</p>
-        <p><strong>Master of Engineering, Cybersecurity</strong><br/>The George Washington University</p>
-      </div>
+<section id="education">
+  <div class="section-title">Education</div>
+  <div class="education-row">
+    <div class="edu-column">
+      <strong>HARVARD UNIVERSITY</strong>
+      <p>Master in Public Administration, AI Policy – Harvard Kennedy School</p>
+      <img src="harvard.jpg" alt="Harvard Graduation">
     </div>
-  </section>
+    <div class="edu-column">
+      <strong>GEORGE WASHINGTON UNIVERSITY</strong>
+      <p>Doctor of Engineering, Engineering Management<br>Master of Engineering, Cybersecurity</p>
+      <img src="gwu.jpg" alt="GWU Graduation">
+    </div>
+  </div>
+</section>
 
-  <footer>
-    © 2025 Dr. Ash Luitèl | <a href="https://www.linkedin.com/in/drluitel/" target="_blank" style="color: #fff; text-decoration: underline;">Connect with me on LinkedIn</a>
-  </footer>
 </body>
 </html>
